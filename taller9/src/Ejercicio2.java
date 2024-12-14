@@ -37,6 +37,12 @@ public class Ejercicio2 {
                 }
 
             }
+            for (int j = 2; j < primo; j++) {
+                if (primo%j==0){
+                primo++;
+                }
+                
+            }
 
         }
         System.out.println(" ");
@@ -46,7 +52,7 @@ public class Ejercicio2 {
 
 /*run:
 Ingresar el limite
-5
-1/2, 1/3, 2/5, 3/7, 5/11,  
-BUILD SUCCESSFUL (total time: 1 second)
+15
+1/2, 1/3, 2/5, 3/7, 5/11, 8/13, 13/17, 21/19, 34/23, 55/29, 89/31, 144/37, 233/41, 377/43, 610/47,  
+BUILD SUCCESSFUL (total time: 2 seconds)
 */
